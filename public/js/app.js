@@ -20485,161 +20485,204 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("header", [
+    _c("div", { staticClass: "container" }, [
+      _c("nav", { staticClass: "navbar navbar-expand-lg navbar-light" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "collapse navbar-collapse",
+            attrs: { id: "navbarNav" }
+          },
+          [
+            _c("ul", { staticClass: "navbar-nav ml-auto" }, [
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    directives: [
+                      { name: "smooth-scroll", rawName: "v-smooth-scroll" }
+                    ],
+                    staticClass: "nav-link",
+                    attrs: { href: "#propos" }
+                  },
+                  [_vm._v("À Propos")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    directives: [
+                      { name: "smooth-scroll", rawName: "v-smooth-scroll" }
+                    ],
+                    staticClass: "nav-link",
+                    attrs: { href: "#service" }
+                  },
+                  [_vm._v("Services")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    directives: [
+                      { name: "smooth-scroll", rawName: "v-smooth-scroll" }
+                    ],
+                    staticClass: "nav-link",
+                    attrs: { href: "#portfolio" }
+                  },
+                  [_vm._v("Realisations")]
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(2)
+            ]),
+            _vm._v(" "),
+            _vm._m(3)
+          ]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(4),
+    _vm._v(" "),
+    _vm._m(5)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("header", [
-      _c("div", { staticClass: "container" }, [
-        _c("nav", { staticClass: "navbar navbar-expand-lg navbar-light" }, [
-          _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
-            _c("img", {
-              attrs: {
-                src: __webpack_require__(/*! ../../../public/imgs/logo.png */ "./public/imgs/logo.png"),
-                alt: "skoora-logo",
-                height: "100px"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass: "navbar-toggler",
-              attrs: {
-                type: "button",
-                "data-toggle": "collapse",
-                "data-target": "#navbarNav",
-                "aria-controls": "navbarNav",
-                "aria-expanded": "false",
-                "aria-label": "Toggle navigation"
-              }
-            },
-            [_c("span", { staticClass: "navbar-toggler-icon" })]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "collapse navbar-collapse",
-              attrs: { id: "navbarNav" }
-            },
-            [
-              _c("ul", { staticClass: "navbar-nav ml-auto" }, [
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _vm._v("À Propos")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _vm._v("Services")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _vm._v("Realisations")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                    _vm._v("Contact")
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c(
-                "ul",
-                { staticClass: "navbar-nav list-unstyled ml-auto list-inline" },
-                [
-                  _c("li", { staticClass: "list-inline-item nav-item" }, [
-                    _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-                      _vm._v("FR")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item nav-item" }, [
-                    _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-                      _vm._v("NL")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item nav-item" }, [
-                    _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
-                      _vm._v("EN")
-                    ])
-                  ])
-                ]
-              )
-            ]
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "container text-left header-text pl-3 pl-sm-0" },
-        [
-          _c("h1", [
-            _vm._v("L'Agence qui vous mène à"),
-            _c("br"),
-            _vm._v("réaliser vos projets digitaux")
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Nous conçevons des solutions informatiques performantes pour nos clients"
-            ),
-            _c("br"),
-            _vm._v("afin quils atteignent leurs objectifs")
-          ]),
-          _vm._v(" "),
-          _c(
-            "a",
-            {
-              staticClass: "btn",
-              attrs: {
-                type: "button",
-                "data-toggle": "modal",
-                "data-target": "#exampleModal"
-              }
-            },
-            [_vm._v(" émarrer UN PROJET")]
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", [
-        _c("img", {
-          staticClass: "foot-banner d-none d-lg-block d-xl-block",
-          attrs: {
-            src: __webpack_require__(/*! ../../../public/imgs/Path 90.png */ "./public/imgs/Path 90.png"),
-            alt: "footer"
-          }
-        }),
-        _vm._v(" "),
-        _c("img", {
-          staticClass: "second-img d-none d-lg-block d-xl-block",
-          attrs: {
-            src: __webpack_require__(/*! ../../../public/imgs/img2.png */ "./public/imgs/img2.png"),
-            alt: "footer"
-          }
-        }),
-        _vm._v(" "),
-        _c("img", {
-          staticClass: "mobile-img d-none d-lg-block d-xl-block",
-          attrs: {
-            src: __webpack_require__(/*! ../../../public/imgs/mobile.png */ "./public/imgs/mobile.png"),
-            alt: "mobile-img"
-          }
-        })
+    return _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
+      _c("img", {
+        attrs: {
+          src: __webpack_require__(/*! ../../../public/imgs/logo.png */ "./public/imgs/logo.png"),
+          alt: "skoora-logo",
+          height: "100px"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "navbar-toggler",
+        attrs: {
+          type: "button",
+          "data-toggle": "collapse",
+          "data-target": "#navbarNav",
+          "aria-controls": "navbarNav",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation"
+        }
+      },
+      [_c("span", { staticClass: "navbar-toggler-icon" })]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+        _vm._v("Contact")
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "ul",
+      { staticClass: "navbar-nav list-unstyled ml-auto list-inline" },
+      [
+        _c("li", { staticClass: "list-inline-item nav-item" }, [
+          _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
+            _vm._v("FR")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item nav-item" }, [
+          _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
+            _vm._v("NL")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item nav-item" }, [
+          _c("a", { staticClass: "nav-link", attrs: { href: "" } }, [
+            _vm._v("EN")
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "container text-left header-text pl-3 pl-sm-0" },
+      [
+        _c("h1", [
+          _vm._v("L'Agence qui vous mène à"),
+          _c("br"),
+          _vm._v("réaliser vos projets digitaux")
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "Nous conçevons des solutions informatiques performantes pour nos clients"
+          ),
+          _c("br"),
+          _vm._v("afin quils atteignent leurs objectifs")
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "btn",
+            attrs: {
+              type: "button",
+              "data-toggle": "modal",
+              "data-target": "#exampleModal"
+            }
+          },
+          [_vm._v(" émarrer UN PROJET")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticClass: "foot-banner d-none d-lg-block d-xl-block",
+        attrs: {
+          src: __webpack_require__(/*! ../../../public/imgs/Path 90.png */ "./public/imgs/Path 90.png"),
+          alt: "footer"
+        }
+      }),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "second-img d-none d-lg-block d-xl-block",
+        attrs: { src: __webpack_require__(/*! ../../../public/imgs/img2.png */ "./public/imgs/img2.png"), alt: "footer" }
+      })
     ])
   }
 ]
@@ -33214,17 +33257,6 @@ module.exports = "/images/logo.png?f0eef5d6c230cd1e494e78a5e6827659";
 
 /***/ }),
 
-/***/ "./public/imgs/mobile.png":
-/*!********************************!*\
-  !*** ./public/imgs/mobile.png ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/mobile.png?289c6580e9f34ee6df6b7bed1df9ec6e";
-
-/***/ }),
-
 /***/ "./public/imgs/port-path.png":
 /*!***********************************!*\
   !*** ./public/imgs/port-path.png ***!
@@ -33322,14 +33354,15 @@ module.exports = "/images/spo4.png?4acaa539dd4bcb57b0865d6b312131c4";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Header.vue */ "./resources/js/components/Header.vue");
-/* harmony import */ var _components_Propos_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Propos.vue */ "./resources/js/components/Propos.vue");
-/* harmony import */ var _components_Service_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Service.vue */ "./resources/js/components/Service.vue");
-/* harmony import */ var _components_Portfolio_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Portfolio.vue */ "./resources/js/components/Portfolio.vue");
-/* harmony import */ var _components_Confians_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Confians.vue */ "./resources/js/components/Confians.vue");
-/* harmony import */ var _components_Footer_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Footer.vue */ "./resources/js/components/Footer.vue");
-/* harmony import */ var _components_Contact_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Contact.vue */ "./resources/js/components/Contact.vue");
-/* harmony import */ var _components_Confirm_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Confirm.vue */ "./resources/js/components/Confirm.vue");
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'vue2-smooth-scroll'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _components_Header_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Header.vue */ "./resources/js/components/Header.vue");
+/* harmony import */ var _components_Propos_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Propos.vue */ "./resources/js/components/Propos.vue");
+/* harmony import */ var _components_Service_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Service.vue */ "./resources/js/components/Service.vue");
+/* harmony import */ var _components_Portfolio_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Portfolio.vue */ "./resources/js/components/Portfolio.vue");
+/* harmony import */ var _components_Confians_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Confians.vue */ "./resources/js/components/Confians.vue");
+/* harmony import */ var _components_Footer_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Footer.vue */ "./resources/js/components/Footer.vue");
+/* harmony import */ var _components_Contact_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Contact.vue */ "./resources/js/components/Contact.vue");
+/* harmony import */ var _components_Confirm_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Confirm.vue */ "./resources/js/components/Confirm.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
@@ -33341,14 +33374,16 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 
 
-Vue.component('myheader', _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"]);
-Vue.component('propos', _components_Propos_vue__WEBPACK_IMPORTED_MODULE_1__["default"]);
-Vue.component('service', _components_Service_vue__WEBPACK_IMPORTED_MODULE_2__["default"]);
-Vue.component('portfolio', _components_Portfolio_vue__WEBPACK_IMPORTED_MODULE_3__["default"]);
-Vue.component('confian', _components_Confians_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
-Vue.component('myfooter', _components_Footer_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
-Vue.component('contact', _components_Contact_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
-Vue.component('confirm', _components_Confirm_vue__WEBPACK_IMPORTED_MODULE_7__["default"]);
+
+Vue.use(!(function webpackMissingModule() { var e = new Error("Cannot find module 'vue2-smooth-scroll'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+Vue.component('myheader', _components_Header_vue__WEBPACK_IMPORTED_MODULE_1__["default"]);
+Vue.component('propos', _components_Propos_vue__WEBPACK_IMPORTED_MODULE_2__["default"]);
+Vue.component('service', _components_Service_vue__WEBPACK_IMPORTED_MODULE_3__["default"]);
+Vue.component('portfolio', _components_Portfolio_vue__WEBPACK_IMPORTED_MODULE_4__["default"]);
+Vue.component('confian', _components_Confians_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
+Vue.component('myfooter', _components_Footer_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
+Vue.component('contact', _components_Contact_vue__WEBPACK_IMPORTED_MODULE_7__["default"]);
+Vue.component('confirm', _components_Confirm_vue__WEBPACK_IMPORTED_MODULE_8__["default"]);
 var app = new Vue({
   el: '#app'
 });

@@ -11,13 +11,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><!--add padding: 0,30,0,30-->
-                  <a class="nav-link" href="#">À Propos</a>
+                  <a class="nav-link" href="#propos" v-smooth-scroll>À Propos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#service"  v-smooth-scroll>Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Realisations</a>
+                  <a class="nav-link" href="#portfolio" v-smooth-scroll>Realisations</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -39,7 +39,7 @@
         <div>
           <img src="../../../public/imgs/Path 90.png" alt="footer" class="foot-banner d-none d-lg-block d-xl-block">
           <img src="../../../public/imgs/img2.png" alt="footer" class="second-img d-none d-lg-block d-xl-block">
-          <img src="../../../public/imgs/mobile.png" alt="mobile-img" class="mobile-img d-none d-lg-block d-xl-block"> 
+         <!-- <img src="../../../public/imgs/mobile.png" alt="mobile-img" class="mobile-img d-none d-lg-block d-xl-block"> -->
         </div>
      </header>   
 </template>

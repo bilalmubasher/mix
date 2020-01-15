@@ -2,6 +2,8 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import vueSmoothScroll from 'vue2-smooth-scroll'
+
 
 import Header from './components/Header.vue'
 import Propos from './components/Propos.vue'
@@ -11,6 +13,8 @@ import Confians from './components/Confians.vue'
 import Footer from './components/Footer.vue'
 import Contact from './components/Contact.vue'
 import Confirm from './components/Confirm.vue'
+
+Vue.use(vueSmoothScroll);
 Vue.component('myheader', Header);
 Vue.component('propos', Propos);
 Vue.component('service', Service);
