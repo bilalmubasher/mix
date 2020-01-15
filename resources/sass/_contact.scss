@@ -1,0 +1,124 @@
+// Contact-form section start
+#exampleModal, #exampleModal1{
+    z-index: 1212;
+    .modal-header{
+        border-bottom: 0rem !important;
+        button{
+            z-index: 12;
+            span{
+                color: $white;
+            }
+        }
+    }
+    #contact-form{
+        padding: 0rem !important;
+        h1{
+            @include section-heading;
+            text-transform: uppercase;
+            padding-left: 1rem;
+        }
+        .confirm-heading{
+            @include confirm-heading;
+            color: $confirm-heading;
+            // padding-left: 3rem;
+            text-transform: uppercase;
+            }
+            .confirm-btn{
+                @include confirm-btn;
+                // margin-left: 3rem;
+                margin-bottom: 3rem;
+            }
+        .form-padding{
+            // padding: 0rem 10rem 0rem 3rem;
+            .form-control{
+                border: 0.125rem solid $primary-color;
+                border-radius: .5rem !important;
+                padding: 1.5rem;
+            }
+            #exampleFormControlSelect1{
+                padding: 0rem 0rem 0rem 1.4rem !important;
+                height: 3.1rem;
+            }
+            ::placeholder{
+                color: $primary-color;
+            }
+            #exampleFormControlTextarea1{
+                &::placeholder{
+                    color: rgb(88, 98, 121) !important;
+                }
+            }
+        }
+        .envoyer{
+            @include confirm-btn;
+            margin-bottom: 3rem;
+        }
+        .contact-right{
+            margin-top: -56px;
+            background: $primary-color;
+            .contact-path{
+                height: 100%;
+                position: absolute;
+                right: 30rem;
+            }
+            .contact-path-confirm{
+                height: 100%;
+                position: absolute;
+                right: 32rem;
+            }
+            p{
+                font-family: $mont-medium;
+                color: $white;
+            }
+            a{
+                text-decoration: none;
+                font-family: $mont-bold;
+                color: $white;
+                font-size: 1.3rem;
+                font-weight: $font-weight-bold;
+            }
+            i{
+                color: $secondary-color;
+                padding: 3rem 1rem;
+                font-size: 2rem;
+            }
+        }
+        .confirm-contact-right{
+            height: 100vh;
+        }
+    }
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 1250px;
+        margin: 1.75rem auto;
+    }
+}
+
+
+
+
+
+// Contact-form section end
+
+
+// chevron setting
+/* remove the original arrow */
+select.input-lg {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    /* no standardized syntax available, no ie-friendly solution available */
+  }
+  
+  select + i.fa {
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+    /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+    pointer-events: none;
+    /* everything after this is just to cover up the original arrow */
+    /* (for browsers that don't support the syntax used above) */
+    background-color: #fff;
+    padding-right: 5px;
+  }

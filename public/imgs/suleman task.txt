@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="24" viewBox="0 0 100 24">
+  <text id="à_Propos_" data-name="à Propos " transform="translate(1 19)" fill="#fff" font-size="20" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">À Propos </tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="154" viewBox="0 0 912 154">
+  <text id="L_Agence_qui_vous_mène_à_réaliser_vos_projets_digitaux" data-name="L&apos;Agence qui vous mène à 
+réaliser vos projets digitaux" transform="translate(0 61)" fill="#fff" font-size="63" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">L&apos;Agence qui vous mène à </tspan><tspan x="0" y="77">réaliser vos projets digitaux</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="905" height="65" viewBox="0 0 905 65">
+  <text id="Nous_conçevons_des_solutions_informatiques_performantes_pour_nos_clients_afin_qu_ils_atteignent_leurs_objectifs" data-name="Nous conçevons des solutions informatiques performantes pour nos clientsafin qu&apos;ils atteignent leurs objectifs" transform="translate(0 23)" fill="#fff" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Nous conçevons des solutions informatiques performantes pour nos clients</tspan><tspan x="0" y="36">afin qu&apos;ils atteignent leurs objectifs</tspan></text>
+</svg>
+<svg id="Component_14_1" data-name="Component 14 – 1" xmlns="http://www.w3.org/2000/svg" width="340" height="69" viewBox="0 0 340 69">
+  <rect id="base" width="340" height="69" rx="20" fill="#44ffb2"/>
+  <text id="Démarrer_UN_PROJET" data-name="Démarrer UN PROJET" transform="translate(170 42)" fill="#14254c" font-size="20" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.05em"><tspan x="-131.37" y="0">DÉMARRER UN PROJET</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="69" viewBox="0 0 340 69">
+  <rect id="base" width="340" height="69" rx="20" fill="#44ffb2"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="71" viewBox="0 0 324 71">
+  <text id="à_PROPOS" data-name="à PROPOS" transform="translate(1 56)" fill="#14254c" font-size="58" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">À PROPOS</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="699" height="148" viewBox="0 0 699 148">
+  <text id="Notre_véritable_objectif_est_d_aider_les_entreprises_et_les_organisations_à_se_développer_en_misant_sur_la_puissance_du_digital._Nous_sommes_une_agence_digitale_basée_à_Bruxelles." data-name="Notre véritable objectif est d&apos;aider les entreprises et les
+organisations à se développer en misant sur la puissance du digital. 
+Nous sommes une agence digitale basée à Bruxelles." fill="#14254c" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="23">Notre véritable objectif est d&apos;aider les entreprises et les</tspan><tspan x="0" y="58">organisations à se développer en misant sur la puissance </tspan><tspan x="0" y="93">du digital. </tspan><tspan x="0" y="128">Nous sommes une agence digitale basée à Bruxelles.</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="792" height="441" viewBox="0 0 792 441">
+  <defs>
+    <filter id="Rectangle_32" x="0" y="0" width="792" height="441" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_32)">
+    <rect id="Rectangle_32-2" data-name="Rectangle 32" width="773" height="422" rx="20" fill="#fff"/>
+  </g>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="71" viewBox="0 0 300 71">
+  <text id="services" transform="translate(150 56)" fill="#14254c" font-size="58" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-149.205" y="0">SERVICES</tspan></text>
+</svg>
+<svg id="Component_5_1" data-name="Component 5 – 1" xmlns="http://www.w3.org/2000/svg" width="236" height="29" viewBox="0 0 236 29">
+  <text id="APPLICATION_WEB" data-name="APPLICATION WEB" transform="translate(118 23)" fill="#14254c" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-117.828" y="0">APPLICATION WEB</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="434" height="125" viewBox="0 0 434 125">
+  <text id="NOS_Dernières_Réalisations" data-name="NOS DernièresRéalisations" transform="translate(217 48)" fill="#fff" font-size="50" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-216.4" y="0">NOS DERNIÈRES</tspan><tspan x="-192.725" y="64">RÉALISATIONS</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="71" viewBox="0 0 854 71">
+  <text id="Ils_nous_font_confiance" data-name="Ils nous font confiance" transform="translate(0 56)" fill="#14254c" font-size="58" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">ILS NOUS FONT CONFIANCE</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="529" height="167" viewBox="0 0 529 167">
+  <text id="_32_2_808_67_73_Info_skoora.be_Place_de_la_Minoterie_10_1080_Bruxelles_BCE_BE_0677.613.987_IBAN_BE93_0018_1482_8267" data-name="+32 2 808 67 73
+Info@skoora.bePlace de la Minoterie 10  1080 BruxellesBCE BE 0677.613.987 | IBAN BE93 0018 1482 8267" fill="#fff" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="188.8" y="19">+32 2 808 67 73</tspan><tspan x="186.82" y="54">Info@skoora.be</tspan><tspan x="70.27" y="89" xml:space="preserve">Place de la Minoterie 10  1080 Bruxelles</tspan><tspan x="22.04" y="124">BCE BE 0677.613.987 | IBAN BE93 0018 1482 8267</tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="718" height="71" viewBox="0 0 718 71">
+  <text id="démarrer_un_projet" data-name="démarrer un projet" transform="translate(359 56)" fill="#293b7c" font-size="58" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-358.788" y="0">DÉMARRER UN PROJET</tspan></text>
+</svg>
+-------------------------------------------------------------------------------------
+<svg id="Component_21_1" data-name="Component 21 – 1" xmlns="http://www.w3.org/2000/svg" width="340" height="70" viewBox="0 0 340 70">
+  <path id="Path_91" data-name="Path 91" d="M20,0H320a20,20,0,0,1,20,20V50a20,20,0,0,1-20,20H20A20,20,0,0,1,0,50V20A20,20,0,0,1,20,0Z" fill="#44ffb2"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="218" viewBox="0 0 536 218">
+  <g id="Group_37" data-name="Group 37" transform="translate(-573.736 -293.5)">
+    <text id="Faites-nous_part_de_vos_attentes_concernant_vos_projets_digitaux_et_nous_vous_contacterons_pour_boire_un_thé_et_en_discuter_plus_amplement" data-name="Faites-nous part de vos attentes concernant vos projets digitaux et nous vous contacterons pour boire un thé et en discuter plus amplement" transform="translate(573.736 293.5)" fill="#fff" font-size="18" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="17">Faites-nous part de vos attentes concernant vos projets </tspan><tspan x="0" y="53">digitaux et nous vous contacterons pour boire un thé et </tspan><tspan x="0" y="89">en discuter plus amplement</tspan></text>
+    <text id="_32_2_808_67_63" data-name="+32 2 808 67 63" transform="translate(573.736 506.5)" fill="#fff" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">+32 2 808 67 63</tspan></text>
+    <text id="info_skoora.be" data-name="info@skoora.be" transform="translate(573.736 462.5)" fill="#fff" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">info@skoora.be</tspan></text>
+  </g>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="218" viewBox="0 0 536 218">
+  <g id="Group_37" data-name="Group 37" transform="translate(-573.736 -293.5)">
+    <text id="Faites-nous_part_de_vos_attentes_concernant_vos_projets_digitaux_et_nous_vous_contacterons_pour_boire_un_thé_et_en_discuter_plus_amplement" data-name="Faites-nous part de vos attentes concernant vos projets digitaux et nous vous contacterons pour boire un thé et en discuter plus amplement" transform="translate(573.736 293.5)" fill="#fff" font-size="18" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="17">Faites-nous part de vos attentes concernant vos projets </tspan><tspan x="0" y="53">digitaux et nous vous contacterons pour boire un thé et </tspan><tspan x="0" y="89">en discuter plus amplement</tspan></text>
+    <text id="_32_2_808_67_63" data-name="+32 2 808 67 63" transform="translate(573.736 506.5)" fill="#fff" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">+32 2 808 67 63</tspan></text>
+    <text id="info_skoora.be" data-name="info@skoora.be" transform="translate(573.736 462.5)" fill="#fff" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">info@skoora.be</tspan></text>
+  </g>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="633" height="157" viewBox="0 0 633 157">
+  <text id="Merci_pour_votre_message_nous_vous_contacterons_dans_les_pus_brefs_délais_" data-name="Merci pour votre messagenous vous contacterons dans les pus brefs délais  " transform="translate(0 39)" fill="#293b7c" font-size="40" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">MERCI POUR VOTRE MESSAGE</tspan><tspan x="0" y="54">NOUS VOUS CONTACTERONS </tspan><tspan x="0" y="108" xml:space="preserve">DANS LES PUS BREFS DÉLAIS  </tspan></text>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="218" viewBox="0 0 536 218">
+  <g id="Group_37" data-name="Group 37" transform="translate(-573.736 -293.5)">
+    <text id="Faites-nous_part_de_vos_attentes_concernant_vos_projets_digitaux_et_nous_vous_contacterons_pour_boire_un_thé_et_en_discuter_plus_amplement" data-name="Faites-nous part de vos attentes concernant vos projets digitaux et nous vous contacterons pour boire un thé et en discuter plus amplement" transform="translate(573.736 293.5)" fill="#fff" font-size="18" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="17">Faites-nous part de vos attentes concernant vos projets </tspan><tspan x="0" y="53">digitaux et nous vous contacterons pour boire un thé et </tspan><tspan x="0" y="89">en discuter plus amplement</tspan></text>
+    <text id="_32_2_808_67_63" data-name="+32 2 808 67 63" transform="translate(573.736 506.5)" fill="#fff" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">+32 2 808 67 63</tspan></text>
+    <text id="info_skoora.be" data-name="info@skoora.be" transform="translate(573.736 462.5)" fill="#fff" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">info@skoora.be</tspan></text>
+  </g>
+</svg>
+<svg id="Component_23_1" data-name="Component 23 – 1" xmlns="http://www.w3.org/2000/svg" width="340" height="70" viewBox="0 0 340 70">
+  <g id="Component_21_2" data-name="Component 21 – 2">
+    <path id="Path_91" data-name="Path 91" d="M20,0H320a20,20,0,0,1,20,20V50a20,20,0,0,1-20,20H20A20,20,0,0,1,0,50V20A20,20,0,0,1,20,0Z" fill="#44ffb2"/>
+  </g>
+  <text id="retour" transform="translate(120 42)" fill="#14254c" font-size="20" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.1em"><tspan x="0" y="0">RETOUR</tspan></text>
+</svg>

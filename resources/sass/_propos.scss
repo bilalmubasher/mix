@@ -1,0 +1,50 @@
+// propos section start
+#propos{
+    padding: 5rem 0rem 3rem 0rem;
+    .propos{
+        width: 90%;
+        margin-left: -10rem;
+        border-radius: 0.6rem;
+        .circle-img{
+            position: absolute;
+            right: 0;
+            top: 68%;
+        }
+        h1{
+            @include section-heading;
+        }
+        p{
+            color: $primary-color;
+            font-family: $mont-regular;
+        }
+    }
+    .circle-img2{
+        position: absolute;
+        left: 39.1875rem;
+        width: 1.5625rem;
+    }
+}
+// propos section end
+
+
+//media-queries
+@media (max-width: 36rem) {
+    #propos{
+        .propos{
+            width: 100%;
+            margin-left: 0rem;
+            border-radius: 0.6rem;   
+        }
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #propos{
+        .propos{
+            width: 100%;
+            margin-left: 0rem;
+            border-radius: 0.6rem;   
+        }
+    }
+}

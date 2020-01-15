@@ -1,0 +1,60 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing:border-box;
+}
+body{
+    font-family: $mont-regular;
+}
+// header section start
+header{
+    background: $primary-color;
+    nav{
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        @include navlink;
+                    }
+                }
+            }
+        }
+    }
+    .header-text{
+        color: $white;
+        padding: 4.6875rem 0rem 10.375rem 0rem;
+        h1{
+            @include main-heading;
+        }
+        p{
+            @include paragraph-text;
+        }
+        a {
+            @include button-section;
+        }
+    }
+    .foot-banner{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 83%;
+        left: -0.125rem;
+    }
+    .second-img{
+        width: 42rem;
+        position: absolute;
+        height: 40rem;
+        z-index: 2;
+        top: 33%;
+        right: 0;
+    }
+    .mobile-img{
+        position: absolute;
+        top: 4%;
+        z-index: 1212;
+        height: 100%;
+        right: 0;
+    }
+    
+}
+// header section end

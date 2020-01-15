@@ -1,0 +1,64 @@
+//mixins for heading
+@mixin main-heading{
+   font-family: $mont-bold;
+   font-size: 3.625rem;
+   font-weight: $font-weight-bold;     
+}
+@mixin confirm-heading{
+   font-family: $mont-regular;
+   font-size: 2rem;
+   font-weight: $font-weight-light;
+}
+@mixin  confirm-btn {
+   font-family: $mont-semibold;
+   padding: 1.2875rem 7.625rem;
+   font-size: 1.35rem;
+   font-weight: $font-weight-normal-light;
+   background: $secondary-color;
+   color: $primary-color;
+   letter-spacing: 0.05rem;
+   border-radius: 1rem;
+   text-transform: uppercase;
+   &:hover{
+      color: $white;
+   }
+}
+@mixin section-heading {
+   @include main-heading;
+   color: $primary-color;
+}
+@mixin  navlink {
+   color: $white;
+   font-family: $mont-semibold;
+   font-size: 1.25rem;
+   font-weight: $font-weight-normal-light;
+}
+@mixin paragraph-text {
+   font-size: 1.5rem;
+   font-family: $mont-regular;
+}
+@mixin button-section {
+   @include navlink;
+   background: $secondary-color;
+   color: $primary-color;
+   letter-spacing: 0.05rem;
+   border-radius: 1rem;
+   text-transform: uppercase;
+   &:hover{
+      color: $white;
+   }
+}
+@mixin  service-subhead {
+   color: $primary-color;
+   font-size: 1.25rem;
+   font-family: $mont-medium;
+   font-weight: $font-weight-normal;
+   padding-top: 2rem;
+   text-transform: uppercase;
+}
+@mixin port-text {
+   font-size: 3.125rem;
+   font-family: $mont-bold;
+   font-weight: $font-weight-bold;
+   color: $white;
+}

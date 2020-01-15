@@ -1,0 +1,20 @@
+// portfolio section start
+#portfolio{
+    margin-top: -2rem;
+    padding: 10rem 0rem 8rem 0rem;
+    background: $primary-color;
+    .portfolio-path{
+        width: 101.4%;
+        position: absolute;
+        top: 295%;
+        left: -19px;
+    }
+    .text-container{
+
+        h1{
+            @include port-text;
+            font-size: 2rem;
+        }
+    }
+}
+// portfolio section end

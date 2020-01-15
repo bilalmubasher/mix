@@ -1,0 +1,14 @@
+#confians{
+    padding: 5rem 0rem 8rem 0rem;
+    h1{
+        @include section-heading;
+        text-transform: uppercase;
+
+    }
+    .footer-top{
+        width: 102%;
+        position: absolute;
+        right: 0;
+        padding-top: 2.625rem;
+    }
+}
