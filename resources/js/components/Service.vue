@@ -2,12 +2,12 @@
      <div id="service">
         <img src="imgs/service-path.png" alt="path" class="service-path d-none d-lg-block d-xl-block">
         <div class="container pt-5 pb-5">
-         <img src="../../../public/imgs/12.png" alt="serve-img" class="serve-img d-none d-lg-block d-xl-block"> -->
+         <img src="../../../public/imgs/12.png" alt="serve-img" class="serve-img d-none d-lg-block d-xl-block">
           <div class="row text-center">
-            <div class="col-md-4 align-self-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 align-self-center">
               <h1>SERVICES</h1>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 custom-marg">
+            <div class="col-lg-4 col-md-6 col-sm-12">
               <img src="../../../public/imgs/1.png" alt="skoora-logo" class="img-responsive"> 
               <p>APPLICATION WEB</p>
             </div>

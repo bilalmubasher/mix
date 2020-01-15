@@ -31,10 +31,10 @@
             </div>
           </nav>
         </div>
-        <div class="container text-left header-text">
+        <div class="container text-left header-text pl-3 pl-sm-0">
           <h1>L'Agence qui vous mène à</br>réaliser vos projets digitaux</h1>
           <p>Nous conçevons des solutions informatiques performantes pour nos clients<br>afin quils atteignent leurs objectifs</p>
-          <a  type="button" class="btn rounded-sm" data-toggle="modal" data-target="#exampleModal"> émarrer UN PROJET</a>
+          <a  type="button" class="btn" data-toggle="modal" data-target="#exampleModal"> émarrer UN PROJET</a>
         </div>
         <div>
           <img src="../../../public/imgs/Path 90.png" alt="footer" class="foot-banner d-none d-lg-block d-xl-block">

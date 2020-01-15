@@ -11445,7 +11445,7 @@ header .foot-banner {
   width: 100%;
   position: absolute;
   z-index: 1;
-  top: 83%;
+  top: 70%;
   left: -0.125rem;
 }
 
@@ -11460,10 +11460,36 @@ header .second-img {
 
 header .mobile-img {
   position: absolute;
-  top: 4%;
+  top: 23%;
   z-index: 1212;
-  height: 100%;
-  right: 0;
+  height: 70%;
+  right: 98px;
+}
+
+@media (max-width: 991.98px) {
+  header .header-text h1 {
+    font-size: 2rem;
+  }
+
+  header .header-text p {
+    font-size: 1rem;
+  }
+
+  header .header-text a {
+    color: #fff;
+    font-family: "Montserrat SemiBold";
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: #44ffb2;
+    color: #14254c;
+    letter-spacing: 0.05rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+  }
+
+  header .header-text a:hover {
+    color: #fff;
+  }
 }
 
 #propos {
@@ -11514,6 +11540,10 @@ header .mobile-img {
     margin-left: 0rem;
     border-radius: 0.6rem;
   }
+
+  #propos .propos h1 {
+    font-size: 2rem;
+  }
 }
 
 #portfolio {
@@ -11525,8 +11555,8 @@ header .mobile-img {
 #portfolio .portfolio-path {
   width: 101.4%;
   position: absolute;
-  top: 295%;
-  left: -19px;
+  top: 260%;
+  left: -21px;
 }
 
 #portfolio .text-container h1 {
@@ -11535,6 +11565,12 @@ header .mobile-img {
   font-weight: 700;
   color: #fff;
   font-size: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  #portfolio .text-container h1 {
+    font-size: 1rem;
+  }
 }
 
 #service {
@@ -11551,9 +11587,9 @@ header .mobile-img {
 
 #service .serve-img {
   position: absolute;
-  top: 215%;
+  top: 195%;
   width: 7rem;
-  left: 7rem;
+  left: 11rem;
 }
 
 #service h1 {
@@ -11582,6 +11618,16 @@ header .mobile-img {
   }
 }
 
+@media (max-width: 991.98px) {
+  #service h1 {
+    font-family: "Montserrat Bold";
+    font-size: 3.625rem;
+    font-weight: 700;
+    color: #14254c;
+    font-size: 2rem;
+  }
+}
+
 #confians {
   padding: 5rem 0rem 8rem 0rem;
 }
@@ -11598,7 +11644,17 @@ header .mobile-img {
   width: 102%;
   position: absolute;
   right: 0;
-  padding-top: 2.625rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  #confians h1 {
+    font-size: 2rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #footer {
@@ -11613,6 +11669,23 @@ header .mobile-img {
 #footer ul li i {
   color: #fff;
   font-size: 1.5rem;
+}
+
+#footer .bottom-up {
+  background: #14254c;
+  border-radius: 50%;
+  width: 35px;
+  text-align: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+#footer .bottom-up:hover {
+  background-color: #44ffb2;
+  color: #14254c;
 }
 
 #exampleModal,
@@ -11797,6 +11870,53 @@ header .mobile-img {
 #exampleModal #contact-form .confirm-contact-right,
 #exampleModal1 #contact-form .confirm-contact-right {
   height: 100vh;
+}
+
+@media (max-width: 991.98px) {
+  #exampleModal #contact-form,
+  #exampleModal1 #contact-form {
+    padding: 0rem !important;
+  }
+
+  #exampleModal #contact-form h1,
+  #exampleModal1 #contact-form h1 {
+    font-family: "Montserrat Bold";
+    font-size: 3.625rem;
+    font-weight: 700;
+    color: #14254c;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+
+  #exampleModal #contact-form .confirm-heading,
+  #exampleModal1 #contact-form .confirm-heading {
+    font-size: 2rem;
+  }
+
+  #exampleModal #contact-form .confirm-btn,
+  #exampleModal1 #contact-form .confirm-btn {
+    font-family: "Montserrat SemiBold";
+    padding: 1.2875rem 7.625rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    background: #44ffb2;
+    color: #14254c;
+    letter-spacing: 0.05rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+  }
+
+  #exampleModal #contact-form .confirm-btn:hover,
+  #exampleModal1 #contact-form .confirm-btn:hover {
+    color: #fff;
+  }
+
+  #exampleModal #contact-form .envoyer,
+  #exampleModal1 #contact-form .envoyer {
+    padding: 1rem 3rem;
+  }
 }
 
 @media (min-width: 576px) {

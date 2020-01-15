@@ -37,7 +37,7 @@ header{
         width: 100%;
         position: absolute;
         z-index: 1;
-        top: 83%;
+        top: 70%;
         left: -0.125rem;
     }
     .second-img{
@@ -50,11 +50,28 @@ header{
     }
     .mobile-img{
         position: absolute;
-        top: 4%;
+        top: 23%;
         z-index: 1212;
-        height: 100%;
-        right: 0;
+        height: 70%;
+        right: 98px;
     }
     
 }
 // header section end
+
+
+@media (max-width: 991.98px) {
+    header{
+        .header-text{
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+            a {
+                @include button-section;
+            }
+        }
+    }
+}

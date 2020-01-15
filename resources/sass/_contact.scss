@@ -88,6 +88,37 @@
     }
 }
 
+@media (max-width: 991.98px) {
+    #exampleModal, #exampleModal1{
+    #contact-form{
+        padding: 0rem !important;
+        h1{
+            @include section-heading;
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding-left: 1rem;
+        }
+        .confirm-heading{
+            font-size: 2rem;
+            }
+            .confirm-btn{
+                @include confirm-btn;
+                padding: 1rem 3rem;
+                // margin-bottom: 3rem;
+            }
+        .envoyer{
+            padding: 1rem 3rem;
+        }
+
+    }
+}
+}
+
+
+
+
+
+
 @media (min-width: 576px){
     .modal-dialog {
         max-width: 1250px;

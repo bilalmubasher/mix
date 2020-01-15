@@ -11,9 +11,9 @@
     }
     .serve-img{
         position: absolute;
-        top: 215%;
+        top: 195%;
         width: 7rem;
-        left: 7rem;
+        left: 11rem;
     }
     h1{
         @include section-heading;
@@ -21,18 +21,27 @@
     div{
         margin-bottom: 2rem;
     }
-    img{
-    }
     p{
         @include service-subhead;
     }
 }
 // service section end
-
 @media (min-width: 768px) and (max-width: 991.98px){
     #service{
         .custom-marg{
             margin-left: 7rem;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    #service{
+        h1{
+            @include section-heading;
+            font-size: 2rem;
         }
     }
 }

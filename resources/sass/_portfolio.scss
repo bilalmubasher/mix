@@ -6,8 +6,8 @@
     .portfolio-path{
         width: 101.4%;
         position: absolute;
-        top: 295%;
-        left: -19px;
+        top: 260%;
+        left: -21px;
     }
     .text-container{
 
@@ -18,3 +18,12 @@
     }
 }
 // portfolio section end
+@media (max-width: 991.98px) {
+    #portfolio{
+        .text-container{
+            h1{
+                font-size: 1rem;
+            }
+        }
+    }
+}

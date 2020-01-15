@@ -19927,8 +19927,7 @@ var staticRenderFns = [
                 src: __webpack_require__(/*! ../../../public/imgs/spo1.png */ "./public/imgs/spo1.png"),
                 alt: "port-one"
               }
-            }),
-            _vm._v(" -->\n        ")
+            })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-3 col-md-6 col-sm-12" }, [
@@ -19969,8 +19968,7 @@ var staticRenderFns = [
           src: __webpack_require__(/*! ../../../public/imgs/footer-top.png */ "./public/imgs/footer-top.png"),
           alt: "footer-top"
         }
-      }),
-      _vm._v(" -->\n  ")
+      })
     ])
   }
 ]
@@ -20027,6 +20025,14 @@ var render = function() {
                         "col-md-6 contact-right confirm-contact-right d-flex"
                     },
                     [
+                      _c("img", {
+                        staticClass: "contact-path-confirm",
+                        attrs: {
+                          src: __webpack_require__(/*! ../../../public/imgs/contact-path.png */ "./public/imgs/contact-path.png"),
+                          alt: "contact-path"
+                        }
+                      }),
+                      _vm._v(" "),
                       _c(
                         "div",
                         { staticClass: "content my-auto mx-auto" },
@@ -20096,7 +20102,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-6 pt-5" }, [
+    return _c("div", { staticClass: "col-md-6 pt-5 pb-5 pb-sm-0" }, [
       _c("h1", [_vm._v("démarrer un projet")]),
       _vm._v(" "),
       _c("br"),
@@ -20115,8 +20121,8 @@ var staticRenderFns = [
       _c(
         "a",
         {
-          staticClass: "btn btn-lg rounded-sm confirm-btn",
-          attrs: { href: "contact.html", type: "button" }
+          staticClass: "btn btn-lg confirm-btn",
+          attrs: { href: "#", type: "button" }
         },
         [_vm._v(" retour ")]
       )
@@ -20188,6 +20194,14 @@ var render = function() {
                   _vm._m(1),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6 contact-right d-flex" }, [
+                    _c("img", {
+                      staticClass: "contact-path d-none d-lg-block d-xl-block",
+                      attrs: {
+                        src: __webpack_require__(/*! ../../../public/imgs/contact-path.png */ "./public/imgs/contact-path.png"),
+                        alt: "contact-path"
+                      }
+                    }),
+                    _vm._v(" "),
                     _c(
                       "div",
                       { staticClass: "content my-auto mx-auto pt-5 pt-sm-0" },
@@ -20256,7 +20270,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-6 pt-5" }, [
+    return _c("div", { staticClass: "col-md-6 pt-5 pb-5 pb-sm-0" }, [
       _c("h1", [_vm._v("démarrer un projet")]),
       _vm._v(" "),
       _c("form", { staticClass: "form-padding" }, [
@@ -20340,7 +20354,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("a", [
           _c("input", {
-            staticClass: "btn envoyer",
+            staticClass: "btn envoyer ml-3",
             attrs: {
               id: "#",
               type: "button",
@@ -20437,7 +20451,16 @@ var staticRenderFns = [
             ])
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "bottom-up",
+          attrs: { href: "#", onclick: "topFunction()", id: "myBtn" }
+        },
+        [_c("i", { staticClass: "fa fa-chevron-up" })]
+      )
     ])
   }
 ]
@@ -20559,34 +20582,38 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "container text-left header-text" }, [
-        _c("h1", [
-          _vm._v("L'Agence qui vous mène à"),
-          _c("br"),
-          _vm._v("réaliser vos projets digitaux")
-        ]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "Nous conçevons des solutions informatiques performantes pour nos clients"
-          ),
-          _c("br"),
-          _vm._v("afin quils atteignent leurs objectifs")
-        ]),
-        _vm._v(" "),
-        _c(
-          "a",
-          {
-            staticClass: "btn rounded-sm",
-            attrs: {
-              type: "button",
-              "data-toggle": "modal",
-              "data-target": "#exampleModal"
-            }
-          },
-          [_vm._v(" émarrer UN PROJET")]
-        )
-      ]),
+      _c(
+        "div",
+        { staticClass: "container text-left header-text pl-3 pl-sm-0" },
+        [
+          _c("h1", [
+            _vm._v("L'Agence qui vous mène à"),
+            _c("br"),
+            _vm._v("réaliser vos projets digitaux")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Nous conçevons des solutions informatiques performantes pour nos clients"
+            ),
+            _c("br"),
+            _vm._v("afin quils atteignent leurs objectifs")
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "btn",
+              attrs: {
+                type: "button",
+                "data-toggle": "modal",
+                "data-target": "#exampleModal"
+              }
+            },
+            [_vm._v(" émarrer UN PROJET")]
+          )
+        ]
+      ),
       _vm._v(" "),
       _c("div", [
         _c("img", {
@@ -20664,8 +20691,7 @@ var staticRenderFns = [
                 alt: "port-one",
                 width: "100%"
               }
-            }),
-            _vm._v(" -->\n       ")
+            })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-md-4 pt-4 pt-sm-0" }, [
@@ -20676,8 +20702,7 @@ var staticRenderFns = [
                 alt: "port-one",
                 width: "100%"
               }
-            }),
-            _vm._v(" -->\n       ")
+            })
           ]),
           _vm._v(" "),
           _c(
@@ -20740,8 +20765,7 @@ var staticRenderFns = [
                   src: __webpack_require__(/*! ../../../public/imgs/propos.png */ "./public/imgs/propos.png"),
                   alt: "propos"
                 }
-              }),
-              _vm._v(" -->\n       ")
+              })
             ]
           ),
           _vm._v(" "),
@@ -20766,7 +20790,7 @@ var staticRenderFns = [
                       alt: "circle"
                     }
                   }),
-                  _vm._v(" -->\n           "),
+                  _vm._v(" "),
                   _c("h1", [_vm._v("A Propos")]),
                   _vm._v(" "),
                   _c("p", [
@@ -20834,27 +20858,25 @@ var staticRenderFns = [
             alt: "serve-img"
           }
         }),
-        _vm._v(" -->\n     "),
+        _vm._v(" "),
         _c("div", { staticClass: "row text-center" }, [
-          _c("div", { staticClass: "col-md-4 align-self-center" }, [
-            _c("h1", [_vm._v("SERVICES")])
-          ]),
-          _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-lg-4 col-md-6 col-sm-12 custom-marg" },
-            [
-              _c("img", {
-                staticClass: "img-responsive",
-                attrs: {
-                  src: __webpack_require__(/*! ../../../public/imgs/1.png */ "./public/imgs/1.png"),
-                  alt: "skoora-logo"
-                }
-              }),
-              _vm._v(" "),
-              _c("p", [_vm._v("APPLICATION WEB")])
-            ]
+            { staticClass: "col-lg-4 col-md-6 col-sm-12 align-self-center" },
+            [_c("h1", [_vm._v("SERVICES")])]
           ),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4 col-md-6 col-sm-12" }, [
+            _c("img", {
+              staticClass: "img-responsive",
+              attrs: {
+                src: __webpack_require__(/*! ../../../public/imgs/1.png */ "./public/imgs/1.png"),
+                alt: "skoora-logo"
+              }
+            }),
+            _vm._v(" "),
+            _c("p", [_vm._v("APPLICATION WEB")])
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6 col-sm-12" }, [
             _c("img", {
@@ -33145,6 +33167,17 @@ module.exports = "/images/7.png?0aa3faee3fcee509ae1d72d8a6194f0b";
 /***/ (function(module, exports) {
 
 module.exports = "/images/Path 90.png?20f1edc2cbabd3bdd4e29f8a7cc42e31";
+
+/***/ }),
+
+/***/ "./public/imgs/contact-path.png":
+/*!**************************************!*\
+  !*** ./public/imgs/contact-path.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/contact-path.png?da4d4a55727bb0ccd6e2272b5e49e0fe";
 
 /***/ }),
 

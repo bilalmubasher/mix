@@ -1,6 +1,5 @@
 <template>
      <div id="footer">
-        
         <div class="container pt-5">
           <div class="row">
             <div class="col-md-12 text-center text-light">
@@ -19,11 +18,15 @@
             </div>
           </div>
         </div>
+        <a href="#" class="bottom-up" onclick="topFunction()" id="myBtn"><i class="fa fa-chevron-up"></i></a>
       </div>
 </template>
 
 <script>
-        export default {}
+        export default {
+          
+        }
+
  </script>
  <style scoped>
       

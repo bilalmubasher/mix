@@ -10,7 +10,7 @@
             <div class="modal-body" id="contact-form">
               <div class="container-fluid">
                 <div class="row">
-                  <div class="col-md-6 pt-5">
+                  <div class="col-md-6 pt-5 pb-5 pb-sm-0">
                     <h1>démarrer un projet</h1>
                       <form class="form-padding">
                         <div class="form-group col-md-10 col-12">
@@ -40,11 +40,11 @@
                             <div class="form-group col-md-10 col-12">
                               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Votre Message" rows="5"></textarea>
                             </div>
-                            <a><input class="btn envoyer" id="#" type="button" value="ENVOYER" data-toggle="modal" data-target="#exampleModal1"></a>
+                            <a><input class="btn envoyer ml-3" id="#" type="button" value="ENVOYER" data-toggle="modal" data-target="#exampleModal1"></a>
                           </form>
                       </div>
                       <div class="col-md-6 contact-right d-flex">
-                      <!-- <img src="{{asset('imgs/contact-path.png')}}" alt="contact-path" class="contact-path d-none d-lg-block d-xl-block"> -->
+                      <img src="../../../public/imgs/contact-path.png" alt="contact-path" class="contact-path d-none d-lg-block d-xl-block">
                           <div class="content my-auto mx-auto pt-5 pt-sm-0">
                             <P class="text-justify">Faites-nous par de vos attentes concernant vos projects<br>
                                 digitaux et nous vous contacterons pour boire un the et<br>
